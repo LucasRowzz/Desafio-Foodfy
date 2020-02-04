@@ -1,0 +1,129 @@
+/* Importando as fontes */
+:root{
+    --color-rosa: #FBDFDB;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+/* Seletores */
+body{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+   
+}
+/* Header */
+
+header{
+    padding: 42px 19px;
+    
+    
+}
+header img{
+    margin: 0 auto;
+    margin-left: 235px;
+    line-height: 26.9px;
+    margin-right: 122.4px;
+    display: inline;
+}
+
+/* Footer */
+footer{
+    margin: 0 auto;
+    text-align: center;
+    background: #EEEEEE;
+    padding: 20px;
+    font-size: 14px;
+    font-family: "Roboto-Regular";
+    color: #999999;
+}
+
+/* Classes */
+
+/* Links */
+.links a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.links a:hover{
+    transition: color 200ms;
+    color: rgb(245, 245, 130);
+    
+}
+
+/* Container onde estão o cozinheiro e o titles */
+.card-principal{
+    margin: 0 auto;
+    width: 940px;
+    background:var(--color-rosa);
+    height: 366px;
+    margin-left: 251px;
+    border-radius: 30px;  
+}
+/* Cozinheiro */
+.image-content img{
+    float: right;
+    margin-right: 100px;
+    margin-top: 65px;
+}
+/* Melhores receitas */
+.titles1 h1{
+    padding:117px 0px  10px 60px;
+    max-width: 325px;
+    font-size: 32px;
+    line-height:38px;
+    font-family: 'Roboto-Bold', sans-serif;
+    
+}
+.titles1 p{
+    padding:10px 0px  117px 60px;
+    max-width: 316px;
+    font-size: 18px;
+    font-family: 'Roboto-regular', sans-serif;
+}
+/* Fim das melhores receitas */
+
+/* Começa as receitas mais acessadas */
+.cards{
+
+    margin-left: 251px;
+    margin-top: 20px;
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.card__image-container img{
+    
+    width: 100%;
+    border-radius:15px;
+}
+
+.card__image-container{
+    border-radius: 15px;
+    font-family: "Roboto" sans-serif;
+}
+.card__content h2{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.card__content p{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+/* Ids */
+#mais-acessados{
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "Roboto" sans-serif;
+}
